@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_SUCREDITO86</name>
+   <tag></tag>
+   <elementGuidId>b6f21e61-f97a-4867-b4b9-a304667865dc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='insReturnValues(14); return false']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>db3f939b-1fce-4a0b-8fd9-e1034aa6d29b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>JAVASCRIPT:</value>
+      <webElementGuid>63d63e22-8474-4fbd-a989-31923aae6dde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>insReturnValues(14); return false</value>
+      <webElementGuid>3b09a06a-506b-4236-b68f-f6d94333ea3a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SUCREDITO 86</value>
+      <webElementGuid>545de302-9304-4657-9347-75130daa0b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Div1&quot;)/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[2]/label[@class=&quot;FIELD&quot;]/a[1]</value>
+      <webElementGuid>4bba3a2d-0068-49b0-9673-02d82fe7b931</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick='insReturnValues(14); return false']</value>
+      <webElementGuid>7582dea7-9dac-4c67-a6d3-ac10d955ad3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='gridmarrArray']/td[2]/label/a)[15]</value>
+      <webElementGuid>6f615c81-d2f4-4134-a7bf-2bd4489ad01a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'SUCREDITO 86')]</value>
+      <webElementGuid>22644881-a781-4cd5-82df-37f38c2e2faa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUCREDITO 22'])[1]/following::a[1]</value>
+      <webElementGuid>b101a2ed-cffa-409a-b5d3-32d6afb3f06a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SUCREDITO 187'])[1]/following::a[2]</value>
+      <webElementGuid>38e1e61e-3b44-449e-a6d5-3708de367fbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Condición'])[1]/preceding::a[1]</value>
+      <webElementGuid>8892f408-f457-4070-abbf-d3007baad9d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SUCREDITO 86']/parent::*</value>
+      <webElementGuid>41a6cc81-4722-4995-a73e-52cd8083e761</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'JAVASCRIPT:')])[15]</value>
+      <webElementGuid>bfc07444-f0fd-4da9-8497-7e3ca72e3f65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[16]/td[2]/label/a</value>
+      <webElementGuid>e3ade3d0-d908-4000-a683-975ea4aa91aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'JAVASCRIPT:' and (text() = 'SUCREDITO 86' or . = 'SUCREDITO 86')]</value>
+      <webElementGuid>a6afbe3a-4f70-49b3-939d-c81d958e8910</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

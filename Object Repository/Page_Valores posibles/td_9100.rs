@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_9100</name>
+   <tag></tag>
+   <elementGuidId>53570b92-6fd6-4316-808a-15b350edf461</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tr[@id='gridmarrArray']/td)[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e5d0868d-7d65-4cf6-bd63-7b8014b9fc06</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>align</name>
+      <type>Main</type>
+      <value>LEFT</value>
+      <webElementGuid>836b45b3-4486-4565-bd4e-6eeb2ea47290</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>9100
+</value>
+      <webElementGuid>de2e0b8e-c113-40fb-82ce-7af0aed1d229</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Div1&quot;)/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[1]</value>
+      <webElementGuid>c78df80e-0ce0-4191-8389-87ed2f785487</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='gridmarrArray']/td)[3]</value>
+      <webElementGuid>e3695909-c035-4c9b-bd9d-2ef86265d660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proteccion de Tarjetas'])[1]/following::td[1]</value>
+      <webElementGuid>4b034fc0-4905-4ddf-84bf-ddd0298b3539</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descripción'])[1]/following::td[3]</value>
+      <webElementGuid>79122307-6059-47f3-b8c5-97658b0cbdcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proteccion Integral'])[1]/preceding::td[1]</value>
+      <webElementGuid>f15e173f-890a-417d-85bf-edeb1ed1e0ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Robo de Objetos Diversos'])[1]/preceding::td[3]</value>
+      <webElementGuid>b5ad62c9-7630-4594-999f-e4ad7821f566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td</value>
+      <webElementGuid>84b4ca1f-a37c-4a7e-8c2b-95420aec3c97</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '9100
+' or . = '9100
+')]</value>
+      <webElementGuid>c4237b6f-75e9-4021-bba7-6f3657e44cc3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

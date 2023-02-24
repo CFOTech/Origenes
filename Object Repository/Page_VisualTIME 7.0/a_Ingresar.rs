@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ingresar</name>
+   <tag></tag>
+   <elementGuidId>8e9827d3-230b-4357-8ddb-aa04b39929b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ctl00_PrincipalMenu_DXI1_T > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick=&quot;aspxMIClick(event, 'ctl00_PrincipalMenu', '1')&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>75911439-c65b-492d-9be2-ce8043b32aa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>aspxMIClick(event, 'ctl00_PrincipalMenu', '1')</value>
+      <webElementGuid>1ffccfb0-859f-483e-a220-aabcc8fc02ed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:ShowPopupControl();</value>
+      <webElementGuid>85743202-b4a9-462f-bfdd-bf6047f30258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ingresar</value>
+      <webElementGuid>247f7b52-098e-4caa-8db6-a2d3a43e2e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ctl00_PrincipalMenu_DXI1_T&quot;)/a[1]</value>
+      <webElementGuid>e4bc1e09-a6f3-4fbb-98ec-0442ecbe0ed4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick=&quot;aspxMIClick(event, 'ctl00_PrincipalMenu', '1')&quot;]</value>
+      <webElementGuid>755de765-87b1-4cfe-8dfe-2f8eb96d21d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//td[@id='ctl00_PrincipalMenu_DXI1_T']/a</value>
+      <webElementGuid>e9c1a391-1ca9-43f2-bbc3-e10d1f38684e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Ingresar')]</value>
+      <webElementGuid>c98d8aa8-7b06-449c-ad6b-5741f0c589bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Top Insurance Management Ensemble'])[1]/following::a[1]</value>
+      <webElementGuid>46fea8c7-73db-453b-9c65-3133ea84f22a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TIME'])[1]/following::a[1]</value>
+      <webElementGuid>b808ee2e-dd5f-40e9-8601-2a6172d20e74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Español'])[1]/preceding::a[1]</value>
+      <webElementGuid>aba83557-c03f-42eb-9591-93ca215a2981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ayuda'])[1]/preceding::a[1]</value>
+      <webElementGuid>9af3ace0-de56-4cd8-a24d-40254c535c8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ingresar']/parent::*</value>
+      <webElementGuid>5f15d368-e0c9-4147-a33c-a297a2f27ba7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'javascript:ShowPopupControl();')]</value>
+      <webElementGuid>472790b4-83da-495e-aca5-a8fba81d1f67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>54ccda29-b51b-41d4-a59f-de1a87e81d48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:ShowPopupControl();' and (text() = 'Ingresar' or . = 'Ingresar')]</value>
+      <webElementGuid>a0ccde0c-f593-4413-87cc-16cda81abcf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

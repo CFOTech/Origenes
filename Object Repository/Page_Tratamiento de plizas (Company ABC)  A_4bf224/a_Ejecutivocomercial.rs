@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Ejecutivocomercial</name>
+   <tag></tag>
+   <elementGuidId>849fa95f-b2e2-4051-98da-a07f576e3416</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tr[@id='gridmarrArray']/td[3]/label/a)[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>04434e69-a693-47ff-abdc-f232c225ff7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>JAVASCRIPT:EditRecord(3,nMainAction,'Update','nRole=65&amp;sClient=&amp;nCoverPos=-32768&amp;sSmoking=&amp;sCodisp=CA025&amp;sWindowDescript=Asegurables&amp;nWindowTy=9')</value>
+      <webElementGuid>baaa3a27-3879-4147-beff-aab66317fa26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ejecutivo comercial</value>
+      <webElementGuid>705c8194-50c4-4903-a918-5af1896a7ead</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/form[1]/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[3]/label[@class=&quot;FIELD&quot;]/a[1]</value>
+      <webElementGuid>df4e25b8-d1c5-43f9-b1a7-6fdedfee0820</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  A_4bf224/frame_BODY            PEsta pgina utiliza f_a3efde</value>
+      <webElementGuid>52256f9f-e519-44a4-960b-5ab36ec4375c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='gridmarrArray']/td[3]/label/a)[4]</value>
+      <webElementGuid>24b8bf83-6dbf-4dd9-89ce-506cadbf6b9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Ejecutivo comercial')]</value>
+      <webElementGuid>ecb3d03c-00cd-44b1-aea1-2eaa34c5b4f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Intermediario'])[1]/following::a[2]</value>
+      <webElementGuid>399700de-22cd-4a7f-ab4c-451cb772d81f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Allo , Camdela'])[2]/following::a[4]</value>
+      <webElementGuid>61a0019f-9816-4512-81f9-694322750f86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ejecutivo comercial']/parent::*</value>
+      <webElementGuid>d072fda1-f470-4090-9a31-955dab65f1fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, &quot;JAVASCRIPT:EditRecord(3,nMainAction,'Update','nRole=65&amp;sClient=&amp;nCoverPos=-32768&amp;sSmoking=&amp;sCodisp=CA025&amp;sWindowDescript=Asegurables&amp;nWindowTy=9')&quot;)]</value>
+      <webElementGuid>7c11c29d-ebe8-498a-964c-ae54132e3194</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[3]/label/a</value>
+      <webElementGuid>e7254988-5c84-448e-9ed7-896e4d13f7ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = concat(&quot;JAVASCRIPT:EditRecord(3,nMainAction,&quot; , &quot;'&quot; , &quot;Update&quot; , &quot;'&quot; , &quot;,&quot; , &quot;'&quot; , &quot;nRole=65&amp;sClient=&amp;nCoverPos=-32768&amp;sSmoking=&amp;sCodisp=CA025&amp;sWindowDescript=Asegurables&amp;nWindowTy=9&quot; , &quot;'&quot; , &quot;)&quot;) and (text() = 'Ejecutivo comercial' or . = 'Ejecutivo comercial')]</value>
+      <webElementGuid>195a7057-fee9-41b8-be69-6b14249c91fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
