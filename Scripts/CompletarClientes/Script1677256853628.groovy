@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.navigateToUrl('http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Common/secWHeader.aspx?sCodispl=CA001&sProject=PolicySeq&sModule=Policy&sConfig=InSequence&bMenu=1')
 
-WebUI.delay(2)
+WebUI.delay(3)
 
 WebUI.refresh()
 
@@ -54,3 +54,4 @@ WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Asegurables')
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  A_4bf224/a'))
 
 WebUI.waitForPageLoad(10)
+

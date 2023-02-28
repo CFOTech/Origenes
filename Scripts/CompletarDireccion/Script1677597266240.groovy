@@ -17,14 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//DIR
 
-WebUI.callTestCase(findTestCase('BuscarTransaccion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/textarea_Calle_txtAddress'),
+	'Test')
 
-WebUI.callTestCase(findTestCase('CompletarMenuPrincipal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/input_Nmero_tctBuild'),
+	'123')
 
-WebUI.callTestCase(findTestCase('CompletarClientes'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/input_Cdigo postal_valZipCode'),
+	'1089')
 
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a'))
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/select_NoquiereinformarNotiene'),
+	'1', true)
 
-
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/a'))

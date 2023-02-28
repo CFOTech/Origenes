@@ -17,6 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.closeWindowTitle('VisualTIME 7.0')
+
+WebUI.delay(2)
+
 WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC)')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/select_CasaCentral'),

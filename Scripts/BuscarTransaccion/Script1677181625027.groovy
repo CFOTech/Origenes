@@ -34,3 +34,5 @@ WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles
 
 WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/span_Ir a'))
 
+
+

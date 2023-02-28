@@ -17,14 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//VIA DE COBRO
 
-WebUI.callTestCase(findTestCase('BuscarTransaccion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/input_Nmero_valcredi_card'),
+	'1234123412341234')
 
-WebUI.callTestCase(findTestCase('CompletarMenuPrincipal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a_1'))
 
-WebUI.callTestCase(findTestCase('CompletarClientes'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/input_Fecha de vencimiento_tcdDateExpir'),
+	'22/02/2024')
 
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a_1'))
 
-
-
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/a'))

@@ -17,14 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
+//
 
-WebUI.callTestCase(findTestCase('BuscarTransaccion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/select_ComisinfijaEstructuradegestinNoPoseeComisionSegntabla'),
+	'4', true)
 
-WebUI.callTestCase(findTestCase('CompletarMenuPrincipal'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/inputPlanComision'),'5')
 
-WebUI.callTestCase(findTestCase('CompletarClientes'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a_1'))
 
-
-
-
+//WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/a'))
