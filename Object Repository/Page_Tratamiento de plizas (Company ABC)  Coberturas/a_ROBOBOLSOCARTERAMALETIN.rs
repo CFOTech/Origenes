@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_ROBOBOLSOCARTERAMALETIN</name>
+   <tag></tag>
+   <elementGuidId>f2af76e7-7d83-443c-8815-ac263e6e975f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick=&quot;EditRecord(2,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false&quot;])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e3754af9-2ccd-4809-b2f6-1c5617bba9ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>JAVASCRIPT:</value>
+      <webElementGuid>d40fc82a-56c3-493f-b3b8-4dfa61e7e9a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>EditRecord(2,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false</value>
+      <webElementGuid>fbca76e8-de54-45bf-8af1-f234626af8ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ROBO BOLSO/CARTERA/MALETIN</value>
+      <webElementGuid>3273142a-c704-4de0-b7b9-0b84ea85cbbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FORM&quot;)/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[4]/label[@class=&quot;FIELD&quot;]/a[1]</value>
+      <webElementGuid>170ce226-7aed-4ad5-9615-940a213bfe00</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  Coberturas/frame_BODYMaletin</value>
+      <webElementGuid>1972e2f4-7a68-41de-a66f-5d0502398a8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;EditRecord(2,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false&quot;])[3]</value>
+      <webElementGuid>63abbdcd-b676-4f28-b76c-cf55c9a93370</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='gridmarrArray']/td[4]/label/a)[3]</value>
+      <webElementGuid>0234035e-0a76-4fb1-810f-803e4161bb36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'ROBO BOLSO/CARTERA/MALETIN')]</value>
+      <webElementGuid>7f771582-0fe7-43df-9509-df28ccd87c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No aplica'])[2]/following::a[3]</value>
+      <webElementGuid>516e2949-fa76-47b6-a160-ff453d9d078b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GASTOS REEMPLAZO DOCUMENTOS'])[1]/following::a[3]</value>
+      <webElementGuid>4923470d-673f-4d87-9df8-ef1b4369cf1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No aplica'])[3]/preceding::a[1]</value>
+      <webElementGuid>49eec13b-b843-4fab-8f3b-f7defcb4ad88</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ROBO CONT.-BILLETERA/ANTEOJOS/COSMETICOS'])[1]/preceding::a[3]</value>
+      <webElementGuid>2d2e4fff-05a5-462f-884e-6e6eb68e0ffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ROBO BOLSO/CARTERA/MALETIN']/parent::*</value>
+      <webElementGuid>8ad1fb1e-af07-4360-8630-5b225ecd96ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'JAVASCRIPT:')])[9]</value>
+      <webElementGuid>0d633c84-5d92-49b7-bdb3-63c160aa812a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[5]/td[4]/label/a</value>
+      <webElementGuid>191e992e-3e4d-482c-8792-9803e4f09e6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'JAVASCRIPT:' and (text() = 'ROBO BOLSO/CARTERA/MALETIN' or . = 'ROBO BOLSO/CARTERA/MALETIN')]</value>
+      <webElementGuid>66c7f4fe-ea01-432d-8735-ead2d720c019</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

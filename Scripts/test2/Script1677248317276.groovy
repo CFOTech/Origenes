@@ -31,3 +31,11 @@ WebUI.callTestCase(findTestCase('CompletarViaDeCobro'), [:], FailureHandling.STO
 
 WebUI.callTestCase(findTestCase('CompletarDireccion'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('CompletarProductores'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CompletarModulo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CompletarCoberturas'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CompletarDescuentos'), [:], FailureHandling.STOP_ON_FAILURE)
+

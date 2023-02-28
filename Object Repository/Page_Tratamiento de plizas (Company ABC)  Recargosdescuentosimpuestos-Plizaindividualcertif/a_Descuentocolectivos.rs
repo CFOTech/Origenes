@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Descuentocolectivos</name>
+   <tag></tag>
+   <elementGuidId>3933f309-4be9-4756-8959-9a79df180e24</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick=&quot;EditRecord(1,nMainAction,'Update','nGroup=0&amp;sTyp_discxp=2&amp;nPage=1&amp;sCodisp=CA016&amp;sWindowDescript=Recargos/descuentos/impuestosÂ -Â PÃ³lizaÂ individual/certif&amp;nWindowTy=9'); return false&quot;])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f8f372f5-24f9-4633-93b9-3fbf6a85f875</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>JAVASCRIPT:</value>
+      <webElementGuid>4d5243b6-fa5b-45df-9fcc-9bc2bda7afcd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>EditRecord(1,nMainAction,'Update','nGroup=0&amp;sTyp_discxp=2&amp;nPage=1&amp;sCodisp=CA016&amp;sWindowDescript=Recargos/descuentos/impuestosÂ -Â PÃ³lizaÂ individual/certif&amp;nWindowTy=9'); return false</value>
+      <webElementGuid>30913196-7f2d-48cb-ad81-bcdfc4e2f2d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Descuento colectivos</value>
+      <webElementGuid>a96d6bdb-3257-4bc7-89af-0208b7afa9c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/form[1]/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[4]/label[@class=&quot;FIELD&quot;]/a[1]</value>
+      <webElementGuid>a5b92115-4e2a-435b-a3fc-06066f5b2495</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  Recargosdescuentosimpuestos-Plizaindividualcertif/frame_BODY            PEsta pgina utiliza frame, pero su BROWSER no lo soportaP        BODY_fraFolder</value>
+      <webElementGuid>1a170be1-b206-43c3-8c69-7e664c565163</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;EditRecord(1,nMainAction,'Update','nGroup=0&amp;sTyp_discxp=2&amp;nPage=1&amp;sCodisp=CA016&amp;sWindowDescript=Recargos/descuentos/impuestosÂ -Â PÃ³lizaÂ individual/certif&amp;nWindowTy=9'); return false&quot;])[2]</value>
+      <webElementGuid>640fce95-1ac4-4e60-bb28-595bab4a4d0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='gridmarrArray']/td[4]/label/a)[2]</value>
+      <webElementGuid>002887d2-2311-48a1-a88a-f0d2711f4b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Descuento colectivos')]</value>
+      <webElementGuid>03144cda-c51f-42d5-acb0-656f294089ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descuento técnico'])[1]/following::a[2]</value>
+      <webElementGuid>0bd1219f-1eb2-47d1-9485-76b10a1c7fc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='o/o'])[1]/following::a[2]</value>
+      <webElementGuid>bfc6463f-eaa7-4d5b-b779-c57829e18b33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='o/o'])[2]/preceding::a[1]</value>
+      <webElementGuid>358c6b3b-c342-4e1b-be39-f8b120b7bccf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Descuento comercial'])[1]/preceding::a[1]</value>
+      <webElementGuid>3c81cc45-235c-4493-9d06-1efedaa84e65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Descuento colectivos']/parent::*</value>
+      <webElementGuid>36a88374-58ae-400a-b54c-acdf3628bee8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'JAVASCRIPT:')])[4]</value>
+      <webElementGuid>aebbb690-f918-4185-ade3-c6f84f9545d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[3]/td[4]/label/a</value>
+      <webElementGuid>7ae2727b-ed5a-4402-9504-5da198b06f84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'JAVASCRIPT:' and (text() = 'Descuento colectivos' or . = 'Descuento colectivos')]</value>
+      <webElementGuid>9e18ff9f-d170-4eea-9181-24a8be3353ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

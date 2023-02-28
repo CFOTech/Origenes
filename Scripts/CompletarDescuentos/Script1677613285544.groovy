@@ -17,28 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Intermediarios')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/select_ComisinfijaEstructuradegestinNoPoseeComisionSegntabla'), 
-    '1', true)
-
-WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Intermediarios - Productores/btn_Convenio de cobranza_Add'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Recargosdescuentosimpuestos-Plizaindividualcertif/a_Descuentocolectivos'))
 
 WebUI.switchToWindowTitle('')
 
-WebUI.setText(findTestObject('Page_Productores_Intermediarios/input_Cdigo_valIntermed'), '22300022')
+WebUI.clearText(findTestObject('Page_Descuentos/input_Factor_tcnPercent'))
 
-WebUI.click(findTestObject('Page_Productores_Intermediarios/label_Intermediario'))
+WebUI.setText(findTestObject('Page_Descuentos/input_Factor_tcnPercent'), '6,420')
 
-WebUI.setText(findTestObject('Page_Productores_Intermediarios/input_PorcentajeDeParticipacin'), '100')
+WebUI.click(findTestObject('Page_Descuentos/h2_Recargosdescuentosimpuestos-Plizaindividualcertif'))
 
-WebUI.click(findTestObject('Page_Productores_Intermediarios/label_Intermediario'))
+WebUI.click(findTestObject('Page_Descuentos/img_Continuar_cmdAccept'))
 
-WebUI.click(findTestObject('Page_Productores_Intermediarios/btn_Continuar_cmdAccept'))
+WebUI.check(findTestObject('Page_Tratamiento de plizas (Company ABC)  Recargosdescuentosimpuestos - Pliza individualcertif/input_oo_Sel (1)'))
 
-//VER SI SE CIERRA
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Intermediarios')
+WebUI.check(findTestObject('Page_Tratamiento de plizas (Company ABC)  Recargosdescuentosimpuestos - Pliza individualcertif/input_oo_Sel (2)'))
 
-WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Intermediarios - Productores/btnCheckA'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Recargosdescuentosimpuestos-Plizaindividualcertif/btnCheckDescuentoA'))
 

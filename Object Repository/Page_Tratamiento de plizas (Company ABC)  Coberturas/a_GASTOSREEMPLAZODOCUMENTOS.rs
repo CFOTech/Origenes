@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_GASTOSREEMPLAZODOCUMENTOS</name>
+   <tag></tag>
+   <elementGuidId>2dd1079c-9624-4ecc-a079-a0326248d20a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//a[@onclick=&quot;EditRecord(1,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false&quot;])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>2ddb4e09-a8a3-4ffd-964b-c6e54407f93b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>JAVASCRIPT:</value>
+      <webElementGuid>b2e44177-d328-4fb2-b294-a2b10ff74625</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>EditRecord(1,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false</value>
+      <webElementGuid>151c73d6-c1ba-49e2-a4e0-7af246cf3cd1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GASTOS REEMPLAZO DOCUMENTOS</value>
+      <webElementGuid>227f8f95-ad45-41c5-a8ef-1d709e44487f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;FORM&quot;)/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[4]/label[@class=&quot;FIELD&quot;]/a[1]</value>
+      <webElementGuid>bde610e4-8d67-4f39-9517-b53d6e1a4508</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  Coberturas/frame_BODYDoc</value>
+      <webElementGuid>0d9e1933-aa18-416b-ae9f-6012357b2f2c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//a[@onclick=&quot;EditRecord(1,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false&quot;])[3]</value>
+      <webElementGuid>a7ef0286-56a3-4224-bd9a-d14c0d55d232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='gridmarrArray']/td[4]/label/a)[2]</value>
+      <webElementGuid>d1e03010-f382-4f7f-a2d4-7b15376ad7f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'GASTOS REEMPLAZO DOCUMENTOS')]</value>
+      <webElementGuid>dc5135d6-7946-4fc8-9851-58135a025119</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No aplica'])[1]/following::a[3]</value>
+      <webElementGuid>63de1611-a0bb-4efc-a639-d98262a99b74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GASTOS REEMPLAZO LLAVES'])[1]/following::a[3]</value>
+      <webElementGuid>097bb614-efb4-487f-a387-95af4c0a6173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No aplica'])[2]/preceding::a[1]</value>
+      <webElementGuid>773c652b-1721-42aa-9f9c-ab6e65ad49d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ROBO BOLSO/CARTERA/MALETIN'])[1]/preceding::a[3]</value>
+      <webElementGuid>80524ce0-adfd-4142-9605-411b3c0dcbcb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='GASTOS REEMPLAZO DOCUMENTOS']/parent::*</value>
+      <webElementGuid>e40a2071-4511-4d78-a74c-18837873a79c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'JAVASCRIPT:')])[6]</value>
+      <webElementGuid>5baf0865-4303-4262-bbd6-99189bd696b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[4]/label/a</value>
+      <webElementGuid>ace2d557-db24-4ed6-bdbe-a6ec36236064</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'JAVASCRIPT:' and (text() = 'GASTOS REEMPLAZO DOCUMENTOS' or . = 'GASTOS REEMPLAZO DOCUMENTOS')]</value>
+      <webElementGuid>18dec4d0-0484-45f6-b10d-41cb3b9a9feb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fecha de vencimiento_tcdDateExpir</name>
+   <name>input_Suma asegurada_tcnCapital</name>
    <tag></tag>
-   <elementGuidId>d2de23a3-21e0-47b3-9a87-d2c92cad8ecc</elementGuidId>
+   <elementGuidId>6125aeab-4734-4cea-a093-aa8de519d822</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dp1677184298113</value>
+         <value>input[name=&quot;tcnCapital&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito']</value>
+         <value>//input[@name='tcnCapital']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c66f23bc-8640-435d-b2c6-a3d52bef675d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datepicker hasDatepicker</value>
-      <webElementGuid>e16d30e3-6cba-46b9-8907-53e3a78e0c13</webElementGuid>
+      <webElementGuid>2d55834e-ab6b-452a-8987-2ccfd4735d8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,39 +30,31 @@
       <name>type</name>
       <type>Main</type>
       <value>TEXT</value>
-      <webElementGuid>825f98e4-c099-4258-ad32-0b4b37ae0f26</webElementGuid>
+      <webElementGuid>a34ee0ce-c56d-41ff-9854-072a96b0bc47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>tcdDateExpir</value>
-      <webElementGuid>34d938dc-49b5-4228-9c52-41bd8f8e6e84</webElementGuid>
+      <value>tcnCapital</value>
+      <webElementGuid>487f7241-9feb-424a-8111-d7644c242338</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>size</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>2d68cd3a-e050-49ce-a233-4fc78b10f5de</webElementGuid>
+      <value>25</value>
+      <webElementGuid>f18ad753-ee3a-4e31-96f9-cb772f97af41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>maxlength</name>
       <type>Main</type>
-      <value>10</value>
-      <webElementGuid>008927ab-0b12-4049-a50c-b5ae205935e7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Fecha de vencimiento de la tarjeta de crédito</value>
-      <webElementGuid>547dd0a2-6b3b-4cb7-9c8b-fe563e4bb1e2</webElementGuid>
+      <value>25</value>
+      <webElementGuid>f72d6c00-5f9a-4fce-ba88-dabe97266b46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,62 +62,78 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>eed9aa4f-ca44-47ec-87b8-c9eb8052adac</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onchange</name>
-      <type>Main</type>
-      <value>tcdDateExpir.IsReq=0;tcdDateExpir.Alias=&quot;Fecha de vencimiento de la tarjeta de crédito&quot;;if(ValDate(tcdDateExpir , &quot;DD/MM/YYYY&quot; , &quot;/&quot;)){}</value>
-      <webElementGuid>ae153620-4951-4281-ae4b-1b7345d61de1</webElementGuid>
+      <webElementGuid>137fee98-26b0-468a-926c-e2b437a0c6ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>title</name>
       <type>Main</type>
-      <value>dp1677184298113</value>
-      <webElementGuid>008f40e4-8962-4970-808a-de8d5d9e03bb</webElementGuid>
+      <value>Capital asegurado</value>
+      <webElementGuid>a0b4c27c-48fd-427a-9668-6613d711e9b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>0,000000</value>
+      <webElementGuid>561a40cd-3805-4511-9101-638033fa920a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>self.document.forms[0].tcnCapital.HolePlace='012'; self.document.forms[0].tcnCapital.IsReq=1; self.document.forms[0].tcnCapital.ShowThousand=1; self.document.forms[0].tcnCapital.Alias='Capital asegurado'; self.document.forms[0].tcnCapital.DecimalPlace=06;if(ValNumber(this,'.',',','false',6)){insCalPremium('1');}</value>
+      <webElementGuid>4a4f1282-4182-4d2b-a29c-c224bb5fac26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dp1677184298113&quot;)</value>
-      <webElementGuid>f02d9303-d799-4bfb-9319-495a84e7711c</webElementGuid>
+      <value>id(&quot;FORM&quot;)/table[1]/tbody[1]/tr[6]/td[2]/input[1]</value>
+      <webElementGuid>10f386a8-27b1-4637-9cee-d979801b42aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  V/frame_BODY            PEsta pgina utiliza f_a3efde</value>
-      <webElementGuid>c9a5fafc-2996-406a-880d-cb4e21886fbc</webElementGuid>
+      <value>Object Repository/Page_Cobertura/frame_BODYSumaAsegurada</value>
+      <webElementGuid>d58ca0b8-2cc3-42de-9e7d-fcc20f7fefed</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='dp1677184298113']</value>
-      <webElementGuid>616c89d5-7820-426c-a1c3-065370d33fdb</webElementGuid>
+      <value>//input[@name='tcnCapital']</value>
+      <webElementGuid>5b0c6e66-e7b5-4d9a-8b04-0a67eb9bf6d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='FORM']/table/tbody/tr[6]/td[2]/input</value>
+      <webElementGuid>70c30f90-7c9b-4c1e-b62c-5984ba142c75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[20]/td[2]/input</value>
-      <webElementGuid>dce8b1b0-6d35-40ba-8047-46e02a5fe6b4</webElementGuid>
+      <value>//tr[6]/td[2]/input</value>
+      <webElementGuid>ef6836bf-a99d-49a0-a12d-5c85f0940e14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito' and @id = 'dp1677184298113']</value>
-      <webElementGuid>f999d08d-18f8-4744-ab39-71f862bef307</webElementGuid>
+      <value>//input[@type = 'TEXT' and @name = 'tcnCapital' and @title = 'Capital asegurado']</value>
+      <webElementGuid>19d362ee-6ac9-41f0-80bd-16b740c6b538</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

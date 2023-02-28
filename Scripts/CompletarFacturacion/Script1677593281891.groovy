@@ -17,30 +17,30 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Titular_tctClient'),
-	'42933160')
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Titular_tctClient'), 
+    '42933160')
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/td_var mintTypeForm2'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/select_Facturacin vencidaNo AplicaFacturaci_fc9188'),
-	'2', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/select_Facturacin vencidaNo AplicaFacturaci_fc9188'), 
+    '2', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Convenio_valAgreement'),
-	'25')
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Convenio_valAgreement'), 
+    '25')
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a'))
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Nmero de comercio_valCommernum'),
-	'2829030')
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Nmero de comercio_valCommernum'), 
+    '2829030')
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Convenio colectivo_valgroup_Agree'),
-	'25')
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/input_Convenio colectivo_valgroup_Agree'), 
+    '25')
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a'))
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  Datos/a'))
+

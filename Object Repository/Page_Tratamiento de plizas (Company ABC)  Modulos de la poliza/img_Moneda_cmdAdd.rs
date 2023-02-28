@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fecha de vencimiento_tcdDateExpir</name>
+   <name>img_Moneda_cmdAdd</name>
    <tag></tag>
-   <elementGuidId>d2de23a3-21e0-47b3-9a87-d2c92cad8ecc</elementGuidId>
+   <elementGuidId>e998bf84-65c7-41cf-88e4-3808c432ad50</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dp1677184298113</value>
+         <value>#cmdAdd</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito']</value>
+         <value>//img[@id='cmdAdd']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,119 +21,127 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>c66f23bc-8640-435d-b2c6-a3d52bef675d</webElementGuid>
+      <value>img</value>
+      <webElementGuid>def013f6-85a2-41d1-9230-ee9d88589044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>border</name>
       <type>Main</type>
-      <value>datepicker hasDatepicker</value>
-      <webElementGuid>e16d30e3-6cba-46b9-8907-53e3a78e0c13</webElementGuid>
+      <value>0</value>
+      <webElementGuid>4314e116-e5b2-4b0a-bcc9-920ea46cbd20</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>src</name>
       <type>Main</type>
-      <value>TEXT</value>
-      <webElementGuid>825f98e4-c099-4258-ad32-0b4b37ae0f26</webElementGuid>
+      <value>http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Images/btnLargeAddOn.png</value>
+      <webElementGuid>3eb19083-9bdb-434d-86d6-1e279cea0cd1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>tcdDateExpir</value>
-      <webElementGuid>34d938dc-49b5-4228-9c52-41bd8f8e6e84</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>size</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>2d68cd3a-e050-49ce-a233-4fc78b10f5de</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
-      <type>Main</type>
-      <value>10</value>
-      <webElementGuid>008927ab-0b12-4049-a50c-b5ae205935e7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Fecha de vencimiento de la tarjeta de crédito</value>
-      <webElementGuid>547dd0a2-6b3b-4cb7-9c8b-fe563e4bb1e2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tabindex</name>
-      <type>Main</type>
-      <value>0</value>
-      <webElementGuid>eed9aa4f-ca44-47ec-87b8-c9eb8052adac</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onchange</name>
-      <type>Main</type>
-      <value>tcdDateExpir.IsReq=0;tcdDateExpir.Alias=&quot;Fecha de vencimiento de la tarjeta de crédito&quot;;if(ValDate(tcdDateExpir , &quot;DD/MM/YYYY&quot; , &quot;/&quot;)){}</value>
-      <webElementGuid>ae153620-4951-4281-ae4b-1b7345d61de1</webElementGuid>
+      <value>cmdAdd</value>
+      <webElementGuid>98f2d876-1d0f-4ef2-8a85-b35973d4f73d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>dp1677184298113</value>
-      <webElementGuid>008f40e4-8962-4970-808a-de8d5d9e03bb</webElementGuid>
+      <value>cmdAdd</value>
+      <webElementGuid>0b56e811-7e89-4184-baed-85fc59f64e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Agregar</value>
+      <webElementGuid>edee8066-dedc-4411-ae8c-f52a7ba04718</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Agregar</value>
+      <webElementGuid>a17fdaf9-ed93-4963-a232-fdc0185f1936</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmousemove</name>
+      <type>Main</type>
+      <value>MouseMoveImage(this, true)</value>
+      <webElementGuid>320f618b-eefe-4f53-b57b-065773991c0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseout</name>
+      <type>Main</type>
+      <value>MouseMoveImage(this, false)</value>
+      <webElementGuid>fd561781-1ece-46a3-97e0-dfbcf1a2af96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ToolbarHeaderHover</value>
+      <webElementGuid>e20cffb0-bb0d-4623-a833-4d0241f81f7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dp1677184298113&quot;)</value>
-      <webElementGuid>f02d9303-d799-4bfb-9319-495a84e7711c</webElementGuid>
+      <value>id(&quot;cmdAdd&quot;)</value>
+      <webElementGuid>48bfedcd-1f18-44a7-b916-b8ed45666826</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  V/frame_BODY            PEsta pgina utiliza f_a3efde</value>
-      <webElementGuid>c9a5fafc-2996-406a-880d-cb4e21886fbc</webElementGuid>
+      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  Modulos de la poliza/frame_BODY            PEsta pgina utiliza frame, pero su BROWSER no lo soportaP        BODY_fraFolder</value>
+      <webElementGuid>5e6f5486-2702-4075-a3a6-cdea049bffa8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='dp1677184298113']</value>
-      <webElementGuid>616c89d5-7820-426c-a1c3-065370d33fdb</webElementGuid>
+      <value>//img[@id='cmdAdd']</value>
+      <webElementGuid>9b732da4-6d68-4634-8305-5044d88a7ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Agregar']</value>
+      <webElementGuid>4c58dd53-c6ed-4c90-90c3-c5afd491d907</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[20]/td[2]/input</value>
-      <webElementGuid>dce8b1b0-6d35-40ba-8047-46e02a5fe6b4</webElementGuid>
+      <value>//img</value>
+      <webElementGuid>e0237c09-86aa-41df-97ff-9b7f8b2c2dd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito' and @id = 'dp1677184298113']</value>
-      <webElementGuid>f999d08d-18f8-4744-ab39-71f862bef307</webElementGuid>
+      <value>//img[@src = 'http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Images/btnLargeAddOn.png' and @name = 'cmdAdd' and @id = 'cmdAdd' and @alt = 'Agregar' and @title = 'Agregar']</value>
+      <webElementGuid>fe08984c-cea6-469b-b356-d580c22bb0e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

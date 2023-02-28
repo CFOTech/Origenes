@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fecha de vencimiento_tcdDateExpir</name>
+   <name>input_Factor_tcnPercent</name>
    <tag></tag>
-   <elementGuidId>d2de23a3-21e0-47b3-9a87-d2c92cad8ecc</elementGuidId>
+   <elementGuidId>0030d06e-bfea-4f31-a1a8-c5414e828777</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dp1677184298113</value>
+         <value>input[name=&quot;tcnPercent&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito']</value>
+         <value>//input[@name='tcnPercent']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c66f23bc-8640-435d-b2c6-a3d52bef675d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datepicker hasDatepicker</value>
-      <webElementGuid>e16d30e3-6cba-46b9-8907-53e3a78e0c13</webElementGuid>
+      <webElementGuid>bb7846e5-1d5d-4d44-9b5b-ebc84e801d65</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>TEXT</value>
-      <webElementGuid>825f98e4-c099-4258-ad32-0b4b37ae0f26</webElementGuid>
+      <webElementGuid>6840fae8-b4fc-43cd-8fbf-265cbf836322</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>tcdDateExpir</value>
-      <webElementGuid>34d938dc-49b5-4228-9c52-41bd8f8e6e84</webElementGuid>
+      <value>tcnPercent</value>
+      <webElementGuid>b9825e04-88a7-4857-be51-0b18c78f4c73</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +46,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>2d68cd3a-e050-49ce-a233-4fc78b10f5de</webElementGuid>
+      <webElementGuid>989c89d2-c600-43f5-b538-1641034d2e36</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>008927ab-0b12-4049-a50c-b5ae205935e7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Fecha de vencimiento de la tarjeta de crédito</value>
-      <webElementGuid>547dd0a2-6b3b-4cb7-9c8b-fe563e4bb1e2</webElementGuid>
+      <webElementGuid>c27c62f7-5534-479e-a4b8-d224b7b9a71f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,62 +62,62 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>eed9aa4f-ca44-47ec-87b8-c9eb8052adac</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onchange</name>
-      <type>Main</type>
-      <value>tcdDateExpir.IsReq=0;tcdDateExpir.Alias=&quot;Fecha de vencimiento de la tarjeta de crédito&quot;;if(ValDate(tcdDateExpir , &quot;DD/MM/YYYY&quot; , &quot;/&quot;)){}</value>
-      <webElementGuid>ae153620-4951-4281-ae4b-1b7345d61de1</webElementGuid>
+      <webElementGuid>a7b691ea-7ce6-47fe-9b99-498ffff8d77e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>title</name>
       <type>Main</type>
-      <value>dp1677184298113</value>
-      <webElementGuid>008f40e4-8962-4970-808a-de8d5d9e03bb</webElementGuid>
+      <value>Factor de cálculo a aplicar para obtener el monto del elemento</value>
+      <webElementGuid>38a71384-4275-4f16-af7d-9a00c6007b43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>self.document.forms[0].tcnPercent.HolePlace='03'; self.document.forms[0].tcnPercent.IsReq=0; self.document.forms[0].tcnPercent.ShowThousand=0; self.document.forms[0].tcnPercent.Alias='Factor de cálculo a aplicar para obtener el monto del elemento'; self.document.forms[0].tcnPercent.DecimalPlace=06;if(ValNumber(this,'.',',','false',6)){}</value>
+      <webElementGuid>6eced778-c941-4d9b-bc59-e16210ac2009</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dp1677184298113&quot;)</value>
-      <webElementGuid>f02d9303-d799-4bfb-9319-495a84e7711c</webElementGuid>
+      <value>/html[1]/body[1]/form[1]/table[1]/tbody[1]/tr[4]/td[2]/input[1]</value>
+      <webElementGuid>019f28ab-1749-434c-92fb-04b3a625b83c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  V/frame_BODY            PEsta pgina utiliza f_a3efde</value>
-      <webElementGuid>c9a5fafc-2996-406a-880d-cb4e21886fbc</webElementGuid>
+      <value>Object Repository/Page_Descuentos/frame_BODYFactor</value>
+      <webElementGuid>afc18f61-3bd3-4034-9b96-4fe601ccd266</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='dp1677184298113']</value>
-      <webElementGuid>616c89d5-7820-426c-a1c3-065370d33fdb</webElementGuid>
+      <value>//input[@name='tcnPercent']</value>
+      <webElementGuid>c6b1aa5d-efea-4531-821a-4c883397d093</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[20]/td[2]/input</value>
-      <webElementGuid>dce8b1b0-6d35-40ba-8047-46e02a5fe6b4</webElementGuid>
+      <value>//tr[4]/td[2]/input</value>
+      <webElementGuid>a34d774d-e6b2-4bd6-87c3-d7fbee2f3d5e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito' and @id = 'dp1677184298113']</value>
-      <webElementGuid>f999d08d-18f8-4744-ab39-71f862bef307</webElementGuid>
+      <value>//input[@type = 'TEXT' and @name = 'tcnPercent' and @title = 'Factor de cálculo a aplicar para obtener el monto del elemento']</value>
+      <webElementGuid>d3c7a389-5497-4315-82ac-350855c4028b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

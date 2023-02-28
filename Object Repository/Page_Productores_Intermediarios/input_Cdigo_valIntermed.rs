@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Fecha de vencimiento_tcdDateExpir</name>
+   <name>input_Cdigo_valIntermed</name>
    <tag></tag>
-   <elementGuidId>d2de23a3-21e0-47b3-9a87-d2c92cad8ecc</elementGuidId>
+   <elementGuidId>4b18e6eb-81eb-45b9-b397-30ca74ef88e0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#dp1677184298113</value>
+         <value>input[name=&quot;valIntermed&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito']</value>
+         <value>//input[@name='valIntermed']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c66f23bc-8640-435d-b2c6-a3d52bef675d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>datepicker hasDatepicker</value>
-      <webElementGuid>e16d30e3-6cba-46b9-8907-53e3a78e0c13</webElementGuid>
+      <webElementGuid>51a9e4ca-f713-4fc8-9376-5bbb0d69bbf9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +30,15 @@
       <name>type</name>
       <type>Main</type>
       <value>TEXT</value>
-      <webElementGuid>825f98e4-c099-4258-ad32-0b4b37ae0f26</webElementGuid>
+      <webElementGuid>f577fc19-262f-4d51-8090-087afc5f7670</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>tcdDateExpir</value>
-      <webElementGuid>34d938dc-49b5-4228-9c52-41bd8f8e6e84</webElementGuid>
+      <value>valIntermed</value>
+      <webElementGuid>3b9f794c-cb95-40aa-8fa5-672be21965ef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +46,7 @@
       <name>size</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>2d68cd3a-e050-49ce-a233-4fc78b10f5de</webElementGuid>
+      <webElementGuid>50b0a4aa-c51a-4fec-b87f-49745e600b29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,15 +54,7 @@
       <name>maxlength</name>
       <type>Main</type>
       <value>10</value>
-      <webElementGuid>008927ab-0b12-4049-a50c-b5ae205935e7</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>title</name>
-      <type>Main</type>
-      <value>Fecha de vencimiento de la tarjeta de crédito</value>
-      <webElementGuid>547dd0a2-6b3b-4cb7-9c8b-fe563e4bb1e2</webElementGuid>
+      <webElementGuid>66a7f754-e8e4-4e32-9983-43c8fb90cf59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,62 +62,70 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>eed9aa4f-ca44-47ec-87b8-c9eb8052adac</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>onchange</name>
-      <type>Main</type>
-      <value>tcdDateExpir.IsReq=0;tcdDateExpir.Alias=&quot;Fecha de vencimiento de la tarjeta de crédito&quot;;if(ValDate(tcdDateExpir , &quot;DD/MM/YYYY&quot; , &quot;/&quot;)){}</value>
-      <webElementGuid>ae153620-4951-4281-ae4b-1b7345d61de1</webElementGuid>
+      <webElementGuid>1b711eb3-205d-4675-9ade-4250e972f3e6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>title</name>
       <type>Main</type>
-      <value>dp1677184298113</value>
-      <webElementGuid>008f40e4-8962-4970-808a-de8d5d9e03bb</webElementGuid>
+      <value>Código del intermediario entre el tomador y la compañía</value>
+      <webElementGuid>408a2d2c-e77b-4f1c-96e3-a6ca38339feb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onblur</name>
+      <type>Main</type>
+      <value>self.document.forms[0].valIntermed.HolePlace='010'; self.document.forms[0].valIntermed.IsReq=0; self.document.forms[0].valIntermed.ShowThousand=0; self.document.forms[0].valIntermed.Alias='Código del intermediario entre el tomador y la compañía'; self.document.forms[0].valIntermed.DecimalPlace=00;if(ValNumber(this,'.',',','false',0)){ShowValues(this,true,true,false);ShowChangeValues('304','1');}</value>
+      <webElementGuid>6957457c-cecd-45b6-b841-bcdac371df4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;dp1677184298113&quot;)</value>
-      <webElementGuid>f02d9303-d799-4bfb-9319-495a84e7711c</webElementGuid>
+      <value>id(&quot;CA024&quot;)/table[1]/tbody[1]/tr[3]/td[2]/table[1]/tbody[1]/tr[1]/td[1]/input[1]</value>
+      <webElementGuid>bc42a9d9-a2bf-42c3-be80-fa35272a4d31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  V/frame_BODY            PEsta pgina utiliza f_a3efde</value>
-      <webElementGuid>c9a5fafc-2996-406a-880d-cb4e21886fbc</webElementGuid>
+      <value>Object Repository/Page_Productores_Intermediarios/frame_BODY</value>
+      <webElementGuid>c91ee60c-a809-4d74-8218-b3acea520a1d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='dp1677184298113']</value>
-      <webElementGuid>616c89d5-7820-426c-a1c3-065370d33fdb</webElementGuid>
+      <value>//input[@name='valIntermed']</value>
+      <webElementGuid>f458a9a4-26ef-4d25-a3f7-fdeebf111ac5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='CA024']/table/tbody/tr[3]/td[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>e5db136d-960b-4136-9fc6-b28a278762e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[20]/td[2]/input</value>
-      <webElementGuid>dce8b1b0-6d35-40ba-8047-46e02a5fe6b4</webElementGuid>
+      <value>//td[2]/table/tbody/tr/td/input</value>
+      <webElementGuid>c1cb5d62-9838-4bf0-801c-e4a331deb037</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'TEXT' and @name = 'tcdDateExpir' and @title = 'Fecha de vencimiento de la tarjeta de crédito' and @id = 'dp1677184298113']</value>
-      <webElementGuid>f999d08d-18f8-4744-ab39-71f862bef307</webElementGuid>
+      <value>//input[@type = 'TEXT' and @name = 'valIntermed' and @title = 'Código del intermediario entre el tomador y la compañía']</value>
+      <webElementGuid>5b7c5524-3069-4899-ac6b-6d606884a57c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

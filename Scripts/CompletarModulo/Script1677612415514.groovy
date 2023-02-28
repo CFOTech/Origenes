@@ -17,28 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Intermediarios')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/select_ComisinfijaEstructuradegestinNoPoseeComisionSegntabla'), 
-    '1', true)
-
-WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Intermediarios - Productores/btn_Convenio de cobranza_Add'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Modulos de la poliza/img_Moneda_cmdAdd'))
 
 WebUI.switchToWindowTitle('')
 
-WebUI.setText(findTestObject('Page_Productores_Intermediarios/input_Cdigo_valIntermed'), '22300022')
+WebUI.setText(findTestObject('Page_Modulo/input_Cdigo_valModulec'), '5')
 
-WebUI.click(findTestObject('Page_Productores_Intermediarios/label_Intermediario'))
+WebUI.click(findTestObject('Page_Modulo/label_Mdulosdelapliza'))
 
-WebUI.setText(findTestObject('Page_Productores_Intermediarios/input_PorcentajeDeParticipacin'), '100')
+WebUI.click(findTestObject('Page_Modulo/img_Continuar_cmdAccept'))
 
-WebUI.click(findTestObject('Page_Productores_Intermediarios/label_Intermediario'))
+WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Módulos de la Póliza')
 
-WebUI.click(findTestObject('Page_Productores_Intermediarios/btn_Continuar_cmdAccept'))
-
-//VER SI SE CIERRA
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Intermediarios')
-
-WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Intermediarios - Productores/btnCheckA'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Mdulos de la pliza/btnCheckAModulo'))
 

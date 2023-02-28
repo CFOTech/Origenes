@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h2_Recargosdescuentosimpuestos-Plizaindividualcertif</name>
+   <tag></tag>
+   <elementGuidId>07f9ef6e-6233-4ac4-9426-ce563526b6a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo'])[1]/preceding::h2[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>bd8ac813-5968-4d03-b07b-6bd5018f4886</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recargos/descuentos/impuestos - Póliza individual/certif</value>
+      <webElementGuid>4e3dce36-a0eb-4aa8-9baa-61c8a1b286b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/form[1]/div[@class=&quot;DIVActionGrid&quot;]/div[@class=&quot;DIVWindowsName&quot;]/h2[1]</value>
+      <webElementGuid>6e0caadf-61fa-4ea3-8120-78c589e0adfc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Descuentos/frame_BODYLabel</value>
+      <webElementGuid>3bebe7cb-6a46-4a9b-b2db-4379a18fca02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tipo'])[1]/preceding::h2[1]</value>
+      <webElementGuid>da810fac-446f-4e0f-b79d-0c303f98e4b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Código'])[1]/preceding::h2[1]</value>
+      <webElementGuid>19146b06-b3ab-44d3-a5f0-9e61fe81ba73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Recargos/descuentos/impuestos - Póliza individual/certif']/parent::*</value>
+      <webElementGuid>f9a6ea6d-2049-4558-8fef-3d1d20e3d522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2</value>
+      <webElementGuid>2873b3ef-8c72-4a15-a41b-52aa910cbed9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Recargos/descuentos/impuestos - Póliza individual/certif' or . = 'Recargos/descuentos/impuestos - Póliza individual/certif')]</value>
+      <webElementGuid>07f7a1fd-c1ea-4f9e-a37b-9273b291cc6f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
