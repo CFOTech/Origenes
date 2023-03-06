@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a</name>
+   <tag></tag>
+   <elementGuidId>817461cc-69e0-4f69-9612-a43296594fa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@onclick='if(insDisabledButton(document.A390,0)){ ClientRequest(390,2);}; return false']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#A390LI > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ac1a9645-8ec7-4d2a-9adf-8ed9af614882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>59d84492-56ca-4d38-a49f-c450cd68157d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>if(insDisabledButton(document.A390,0)){ ClientRequest(390,2);}; return false</value>
+      <webElementGuid>e4118cde-1cc6-4b2b-bf67-bc7ae23608ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseover</name>
+      <type>Main</type>
+      <value>insChangeImage(&quot;A390&quot;,1)</value>
+      <webElementGuid>b2e8900b-a265-4585-9de7-7f12e37d3483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onmouseout</name>
+      <type>Main</type>
+      <value>insChangeImage(&quot;A390&quot;,2)</value>
+      <webElementGuid>7a3dcfaf-629e-435a-80de-3e184a976379</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;A390LI&quot;)/a[1]</value>
+      <webElementGuid>dbf2c7ba-2615-4e25-be36-5c4c85045de1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  CA022Cl/frame_BODY            PEsta pgina utiliza frame, pero su BROWSER no lo soportaP        BODY_fraHeader</value>
+      <webElementGuid>b15b36e9-8342-49ec-b7a2-30cf5e9e524f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//a[@onclick='if(insDisabledButton(document.A390,0)){ ClientRequest(390,2);}; return false']</value>
+      <webElementGuid>7415c1b2-ae98-4940-815e-73ce0beeafd5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='A390LI']/a</value>
+      <webElementGuid>cfbfdc88-be71-48a1-b10d-49c06dc28b2b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ramo'])[1]/preceding::a[4]</value>
+      <webElementGuid>7a985e63-2cfb-458d-a6da-f57fb6c7bc17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Robo y riesgos similares'])[1]/preceding::a[4]</value>
+      <webElementGuid>baed9954-dcad-45eb-aa29-6b3920278622</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[3]</value>
+      <webElementGuid>ecaeb2cc-d958-4003-8fd2-af8e3b0373aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/ul/li[3]/a</value>
+      <webElementGuid>0c096c38-dd1c-4b8a-b647-ec71c2b4a2c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#']</value>
+      <webElementGuid>2f4321ed-c9f1-4a64-a55e-e7dba44c6864</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

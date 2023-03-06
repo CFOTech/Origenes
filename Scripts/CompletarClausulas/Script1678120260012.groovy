@@ -17,23 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Modulos de la poliza/img_Moneda_cmdAdd'))
 
-WebUI.delay(2)
+WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / CA022Cl')
 
-WebUI.switchToWindowTitle('')
-
-WebUI.setText(findTestObject('Page_Modulo/input_Cdigo_valModulec'), '5')
-
-WebUI.click(findTestObject('Page_Modulo/label_Mdulosdelapliza'))
-
-WebUI.click(findTestObject('Page_Modulo/img_Continuar_cmdAccept'))
-
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Módulos de la póliza')
-
-not_run: WebUI.switchToWindowTitle('')
-
-WebUI.check(findTestObject('Page_Tratamiento de plizas (Company ABC)  Mdulos de la pliza/chkModuloSeleccionado'))
-
-WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Mdulos de la pliza/btnCheckAModulo'))
-
+//WebUI.switchToWindowTitle('')
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas de una pliza/btnCheckA'))

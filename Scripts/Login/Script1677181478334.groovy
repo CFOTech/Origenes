@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://ori-dtp-vtimeos.retiro.ar:8083/dropthings/default.aspx')
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/a_Ingresar'))
 
 WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Nombre usuario_EmailAddressTextBox'), 'ex9794')
@@ -28,5 +30,4 @@ WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Nombre
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Contrasea_PasswordTextBox'), 'O2+jSSr1EEtPOW9diQgxuQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/div_Iniciar'))
-
 

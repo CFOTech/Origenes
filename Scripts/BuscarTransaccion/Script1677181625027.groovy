@@ -20,7 +20,7 @@ import org.openqa.selenium.Keys as Keys
 WebUI.waitForElementClickable(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), 
     10)
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), 'ca001')
 
@@ -33,6 +33,4 @@ WebUI.delay(5)
 WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), 'CA001 - Tratamiento de pólizas')
 
 WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/span_Ir a'))
-
-
 

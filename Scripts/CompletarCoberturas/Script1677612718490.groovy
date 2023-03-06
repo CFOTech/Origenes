@@ -16,8 +16,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.util.KeywordUtil as KeywordUtil
 
 not_run: WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas')
+
+def nroPoliza = WebUI.getText(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas de una pliza/lblNroPoliza'))
+
+KeywordUtil.logInfo('Poliza: ' + nroPoliza)
 
 WebUI.uncheck(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/input_Noaplica_Sel'))
 
@@ -29,43 +34,49 @@ WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas
 
 WebUI.switchToWindowTitle('')
 
-WebUI.clearText(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'))
+WebUI.doubleClick(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'))
 
-WebUI.setText(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'), '800')
+WebUI.sendKeys(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'), '800')
 
-WebUI.click(findTestObject('Page_Cobertura/table_Mdulovar mstrDoSubmit'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/lblCobertura'))
 
 WebUI.click(findTestObject('Page_Cobertura/img_Continuar_cmdAccept'))
 
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas')
+WebUI.delay(3)
 
+WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas de una póliza')
+
+//WebUI.switchToWindowTitle('')
 WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/a_GASTOSREEMPLAZODOCUMENTOS'))
 
 WebUI.switchToWindowTitle('')
 
-WebUI.clearText(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'))
+WebUI.doubleClick(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'))
 
-WebUI.setText(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'), '800')
+WebUI.sendKeys(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'), '800')
 
-WebUI.click(findTestObject('Page_Cobertura/table_Mdulovar mstrDoSubmit'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/lblCobertura'))
 
 WebUI.click(findTestObject('Page_Cobertura/img_Continuar_cmdAccept'))
 
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas')
+WebUI.delay(3)
 
+WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas de una póliza')
+
+//WebUI.switchToWindowTitle('')
 WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/a_ROBOBOLSOCARTERAMALETIN'))
 
 WebUI.switchToWindowTitle('')
 
-WebUI.clearText(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'))
+WebUI.doubleClick(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'))
 
-WebUI.setText(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'), '6900')
+WebUI.sendKeys(findTestObject('Page_Cobertura/input_Suma asegurada_tcnCapital'), '6900')
 
-WebUI.click(findTestObject('Page_Cobertura/table_Mdulovar mstrDoSubmit'))
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/lblCobertura'))
 
 WebUI.click(findTestObject('Page_Cobertura/img_Continuar_cmdAccept'))
 
-WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas')
+WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC) / Coberturas de una póliza')
 
 WebUI.uncheck(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/input_Noaplica_Sel'))
 
@@ -76,4 +87,12 @@ WebUI.uncheck(findTestObject('Page_Tratamiento de plizas (Company ABC)  Cobertur
 WebUI.check(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/input_Noaplica_Sel (1) - Copy'))
 
 WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas de una pliza/btnCheckA'))
+
+WebUI.switchToWindowTitle('Errores/advertencias encontrados')
+
+//otro click al tilde verde x2
+WebUI.click(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas de una pliza/btnCheckAcceptError'))
+
+
+
 

@@ -17,11 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.navigateToUrl('http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Common/secWHeader.aspx?sCodispl=CA001&sProject=PolicySeq&sModule=Policy&sConfig=InSequence&bMenu=1')
+not_run: WebUI.navigateToUrl('http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Common/secWHeader.aspx?sCodispl=CA001&sProject=PolicySeq&sModule=Policy&sConfig=InSequence&bMenu=1')
 
-WebUI.delay(3)
+not_run: WebUI.delay(5)
 
-WebUI.refresh()
+not_run: WebUI.refresh()
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  A_4bf224/a_Contratante'))
 

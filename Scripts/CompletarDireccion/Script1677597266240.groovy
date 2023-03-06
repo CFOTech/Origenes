@@ -18,19 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //DIR
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/textarea_Calle_txtAddress'), 
+    'Test')
 
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/textarea_Calle_txtAddress'),
-	'Test')
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/input_Nmero_tctBuild'), 
+    '123')
 
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/input_Nmero_tctBuild'),
-	'123')
-
-WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/input_Cdigo postal_valZipCode'),
-	'1089')
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/input_Cdigo postal_valZipCode'), 
+    '4641')
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  V/body_Vadecobro    mstrSrvDecSep  , mstrUsrD_42bf5a'))
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/select_NoquiereinformarNotiene'),
-	'1', true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  D_07a0ec/select_NoquiereinformarNotiene'), 
+    '1', true)
 
 WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)  I_7457cf/a'))
+

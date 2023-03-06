@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[@onclick=&quot;EditRecord(0,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false&quot;])[3]</value>
+         <value>//a[contains(text(),'GASTOS REEMPLAZO LLAVES')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>4b7ef0e7-1852-4c37-995e-1ae020229dce</webElementGuid>
+      <webElementGuid>4eec6929-2420-4fc1-bcd0-9ce494727020</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +29,7 @@
       <name>href</name>
       <type>Main</type>
       <value>JAVASCRIPT:</value>
-      <webElementGuid>5f9ab16a-089b-4f27-9cfc-be833a02c8e0</webElementGuid>
+      <webElementGuid>19cc0da1-cd80-435c-adc8-e1caef0d7758</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>EditRecord(0,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false</value>
-      <webElementGuid>56cca052-191c-4b74-8ce8-3fc5caf948e2</webElementGuid>
+      <webElementGuid>bab9c5f1-9731-4914-8e8a-0dc9930ea91c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GASTOS REEMPLAZO LLAVES</value>
-      <webElementGuid>056ac9d6-22f5-4f71-a974-cfd9cacbf3ee</webElementGuid>
+      <webElementGuid>4f173621-e86b-42ba-a39b-6563824e6654</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;FORM&quot;)/table[@class=&quot;grddata&quot;]/tbody[1]/tr[@id=&quot;gridmarrArray&quot;]/td[4]/label[@class=&quot;FIELD&quot;]/a[1]</value>
-      <webElementGuid>c932e44f-ab20-402c-a57c-344df9efe0d6</webElementGuid>
+      <webElementGuid>27da1f40-a85c-4b81-8f06-c1b60b5dd20b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Page_Tratamiento de plizas (Company ABC)  Coberturas/frame_BODYLlave</value>
-      <webElementGuid>fbb21abc-3a92-4ca7-9eb5-6cf71bd4dbdb</webElementGuid>
+      <webElementGuid>88275c49-bb83-4d55-bf6e-d89d0c6e65db</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=&quot;EditRecord(0,nMainAction,'Update','' + 'nProdclas=' + self.document.forms[0].hddnProdclas.value + '&amp;nAge=' + (typeof(self.document.forms[0].hddnAge)!='undefined'?self.document.forms[0].hddnAge.value:'') + '&amp;nRole=2' + '&amp;sClient=00000042933160' + '&amp;sDisabledByLevels=2' + '&amp;nIndexCover=' + '&amp;nLegAmount=-32768' + '&amp;VIP=' + (typeof(self.document.forms[0].hddsVIP)!='undefined'?self.document.forms[0].hddsVIP.value:'') + '&amp;sNopayroll=' + self.document.forms[0].hddsNopayroll.value + '&amp;nTypdurpay=6'+'&amp;nTyperisk=' + self.document.forms[0].hddnTyperisk.value + '&amp;sCodisp=CA014&amp;sWindowDescript=Coberturas&amp;nWindowTy=9'); return false&quot;])[3]</value>
-      <webElementGuid>16e0fc8f-36e6-4189-af0b-e005ddc826de</webElementGuid>
+      <webElementGuid>6c841ef7-d860-4779-9ba4-5c484013b6c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//tr[@id='gridmarrArray']/td[4]/label/a</value>
-      <webElementGuid>eefae2cc-81eb-48ef-a795-53a92a9055d5</webElementGuid>
+      <webElementGuid>28c60000-06f3-4be7-abf2-e1142d585b99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'GASTOS REEMPLAZO LLAVES')]</value>
-      <webElementGuid>5f424277-1f83-47ab-98f4-db5e9a0f8e4d</webElementGuid>
+      <webElementGuid>74bdbd0d-6908-49c9-9232-34a84364c32e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Franquicia/deducible'])[1]/following::a[3]</value>
-      <webElementGuid>a6ca57c6-c945-4c27-bcf9-e3520683cde6</webElementGuid>
+      <webElementGuid>52c25114-f9cd-46cd-ba63-a421e8ebce87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Prima'])[1]/following::a[3]</value>
-      <webElementGuid>5737d781-9d94-4bb5-8d09-abf56e289fde</webElementGuid>
+      <webElementGuid>6ec13b7a-ece1-4477-a632-176e49999eae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No aplica'])[1]/preceding::a[1]</value>
-      <webElementGuid>6d164892-10c1-4261-a12c-de09c03dfd6a</webElementGuid>
+      <webElementGuid>3b8facbf-cbb3-4380-aec3-a240e852db25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GASTOS REEMPLAZO DOCUMENTOS'])[1]/preceding::a[3]</value>
-      <webElementGuid>74f51bfe-0496-468b-81af-f5ae84fc7ace</webElementGuid>
+      <webElementGuid>b6a0ce16-ecad-4ea2-bdab-a57ab88557ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GASTOS REEMPLAZO LLAVES']/parent::*</value>
-      <webElementGuid>f5095fe0-32f8-4122-8c6f-df8a6dacafb7</webElementGuid>
+      <webElementGuid>9357f6ad-a56f-4706-b61c-d18c439f6cf7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +133,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, 'JAVASCRIPT:')])[3]</value>
-      <webElementGuid>903a8f0c-37b7-4c6f-b7f6-467bfff2ecf4</webElementGuid>
+      <webElementGuid>a7aecceb-8035-4e29-8049-7378718fe156</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +141,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[4]/label/a</value>
-      <webElementGuid>919da7d6-84ff-4203-9278-44533b1ea8bc</webElementGuid>
+      <webElementGuid>8df2ff64-5655-4340-8622-d1d6789ba7fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +149,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'JAVASCRIPT:' and (text() = 'GASTOS REEMPLAZO LLAVES' or . = 'GASTOS REEMPLAZO LLAVES')]</value>
-      <webElementGuid>4b7df4cd-4d17-4ae8-abcd-d5f23c93585c</webElementGuid>
+      <webElementGuid>354bd766-701b-47ba-8708-632bdff7a67c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -37,5 +37,9 @@ WebUI.callTestCase(findTestCase('CompletarModulo'), [:], FailureHandling.STOP_ON
 
 WebUI.callTestCase(findTestCase('CompletarCoberturas'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('CompletarDescuentos'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('CompletarInfoRecibo'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('CompletarClausulas'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('GuardarIngreso'), [:], FailureHandling.STOP_ON_FAILURE)
 
