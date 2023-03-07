@@ -16,12 +16,4 @@
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Frames/frame_FraFolder</value>
-      <webElementGuid>41f245b9-cccd-48c1-b708-7981db37fcc6</webElementGuid>
-   </webElementProperties>
 </WebElementEntity>

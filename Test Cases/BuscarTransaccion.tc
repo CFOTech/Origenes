@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>88c18571-196a-474c-b170-34ba09223912</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7939aaab-a616-4f93-85f2-bd7afb01a3cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c8402a9-c464-4057-8131-c6da4659fbd8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'ca001'</defaultValue>
+      <description></description>
+      <id>7939aaab-a616-4f93-85f2-bd7afb01a3cb</id>
+      <masked>false</masked>
+      <name>codigo</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA001 - Tratamiento de pólizas'</defaultValue>
+      <description></description>
+      <id>7c8402a9-c464-4057-8131-c6da4659fbd8</id>
+      <masked>false</masked>
+      <name>transaccion</name>
+   </variable>
 </TestCaseEntity>

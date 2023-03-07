@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'109079038'</initValue>
+      <name>nroPoliza</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

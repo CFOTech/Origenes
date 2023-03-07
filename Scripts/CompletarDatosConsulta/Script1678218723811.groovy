@@ -17,20 +17,31 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), 
-    10)
+WebUI.closeWindowTitle('VisualTIME 7.0')
 
-WebUI.delay(5)
+WebUI.delay(2)
 
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), codigo)
+WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC)')
 
-WebUI.delay(5)
+WebUI.selectOptionByLabel(findTestObject('Page_Tratamiento de plizas (Company ABC)/selectTipoTransaccion'), 'Consulta de Póliza', 
+    false)
 
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/li_CA001 - Tratamiento de plizas'))
+WebUI.setText(findTestObject('Page_Tratamiento de plizas (Company ABC)/fechaPoliza'), '07/03/2023')
 
-WebUI.delay(5)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/select_ComboRamo'), 
+    '9', true)
 
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), transaccion)
+WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/input_Producto_valProduct'), '9100')
 
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/span_Ir a'))
+WebUI.setText(findTestObject('Page_Tratamiento de plizas (Company ABC)/inputPoliza'), GlobalVariable.nroPoliza)
+
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/body_MenuPrincipal'))
+
+WebUI.delay(3)
+
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/btnGuardarCheck'))
+
+WebUI.waitForPageLoad(10)
+
+WebUI.takeScreenshot()
 

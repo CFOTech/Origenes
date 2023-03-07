@@ -17,20 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), 
-    10)
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('BuscarTransaccion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), codigo)
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/li_CA001 - Tratamiento de plizas'))
-
-WebUI.delay(5)
-
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), transaccion)
-
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/span_Ir a'))
+WebUI.callTestCase(findTestCase('CompletarDatosConsulta'), [:], FailureHandling.STOP_ON_FAILURE)
 
