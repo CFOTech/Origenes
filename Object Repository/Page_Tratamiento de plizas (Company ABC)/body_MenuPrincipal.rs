@@ -658,7 +658,7 @@ insInitialFields(true,'')
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)/frame_BODY            PEsta pgina utiliza f_69e94c</value>
+      <value>Object Repository/Frames/frame_FraHeader</value>
       <webElementGuid>9846c25c-2af7-40d0-84af-3ca4e02c5e58</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

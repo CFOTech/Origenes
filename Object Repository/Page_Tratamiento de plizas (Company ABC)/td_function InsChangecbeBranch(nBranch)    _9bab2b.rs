@@ -7,7 +7,6 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -58,7 +57,7 @@ Comb. Familiar e IntegralesRobo y riesgos similaresVida colectivoRiesgos�
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)/frame_BODY            PEsta pgina utiliza f_69e94c</value>
+      <value>Object Repository/Frames/frame_FraHeader</value>
       <webElementGuid>04f980bc-359a-485d-9c27-7933dd847296</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

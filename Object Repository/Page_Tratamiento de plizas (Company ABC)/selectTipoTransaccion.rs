@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Individual</name>
+   <name>selectTipoTransaccion</name>
    <tag></tag>
-   <elementGuidId>6014bb41-79a9-4eab-9fc5-ad15b7281221</elementGuidId>
+   <elementGuidId>73be9b83-d98f-4d68-be38-e5433b98e873</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Individual')]</value>
+         <value>//select[@name=&quot;cbeTransactio&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Frames/frame_FraHeader</value>
-      <webElementGuid>84011fb1-b11f-4dc0-bddc-b7ca1b7a897e</webElementGuid>
+      <webElementGuid>97b04294-f7f2-4770-8947-ad0c780f1d75</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

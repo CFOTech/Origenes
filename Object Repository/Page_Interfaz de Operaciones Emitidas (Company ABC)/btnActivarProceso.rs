@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Individual</name>
+   <name>btnActivarProceso</name>
    <tag></tag>
-   <elementGuidId>6014bb41-79a9-4eab-9fc5-ad15b7281221</elementGuidId>
+   <elementGuidId>9942cb7c-7a8a-420f-a455-5df4e8eb22e4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Individual')]</value>
+         <value>//label[@title=&quot;Activar proceso&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Frames/frame_FraHeader</value>
-      <webElementGuid>84011fb1-b11f-4dc0-bddc-b7ca1b7a897e</webElementGuid>
+      <value>Object Repository/Frames/frame_FraFolder</value>
+      <webElementGuid>c8a1983c-8274-4a05-add2-0c1fbbb79039</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Individual</name>
+   <name>fechaPoliza</name>
    <tag></tag>
-   <elementGuidId>6014bb41-79a9-4eab-9fc5-ad15b7281221</elementGuidId>
+   <elementGuidId>6bb707d5-37ff-4a94-b277-c563f9065387</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Individual')]</value>
+         <value>//input[@name=&quot;tcdEffecdate&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,6 +22,6 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Frames/frame_FraHeader</value>
-      <webElementGuid>84011fb1-b11f-4dc0-bddc-b7ca1b7a897e</webElementGuid>
+      <webElementGuid>69e12bb4-c196-4740-a3a0-2db69ed73711</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

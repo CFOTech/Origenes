@@ -93,7 +93,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)/frame_BODY            PEsta pgina utiliza f_69e94c</value>
+      <value>Object Repository/Frames/frame_FraHeader</value>
       <webElementGuid>b0697266-9f5b-42d4-bb20-aefd02b0855d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

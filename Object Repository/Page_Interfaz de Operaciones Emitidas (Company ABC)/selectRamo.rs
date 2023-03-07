@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Individual</name>
+   <name>selectRamo</name>
    <tag></tag>
-   <elementGuidId>6014bb41-79a9-4eab-9fc5-ad15b7281221</elementGuidId>
+   <elementGuidId>df9cc2d7-7e9f-4ff6-b0a9-33df1835db70</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//label[contains(text(),'Individual')]</value>
+         <value>//select[@name=&quot;RAMO&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -20,7 +21,7 @@
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Frames/frame_FraHeader</value>
-      <webElementGuid>84011fb1-b11f-4dc0-bddc-b7ca1b7a897e</webElementGuid>
+      <value>Object Repository/Frames/frame_FraFolder</value>
+      <webElementGuid>de5cc84c-d689-4b9a-b229-119b511dc779</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

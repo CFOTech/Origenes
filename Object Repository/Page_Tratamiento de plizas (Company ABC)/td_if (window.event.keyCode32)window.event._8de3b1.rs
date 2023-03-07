@@ -46,7 +46,7 @@ if (window.event.keyCode==32)window.event.keyCode=8; </value>
       <matchCondition>equals</matchCondition>
       <name>ref_element</name>
       <type>Main</type>
-      <value>Object Repository/Page_Tratamiento de plizas (Company ABC)/frame_BODY            PEsta pgina utiliza f_69e94c</value>
+      <value>Object Repository/Frames/frame_FraHeader</value>
       <webElementGuid>60187aad-672a-4900-8678-1df63a3d22c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>

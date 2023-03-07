@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>btnGuardarCheck</name>
+   <name>btnIrAProcBatch</name>
    <tag></tag>
-   <elementGuidId>1e9922fb-6a1b-4401-8641-a3eff95485ea</elementGuidId>
+   <elementGuidId>6ab64b14-1b56-490f-8bc4-78e12cef8cca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//img[@name='A390']</value>
+         <value>//img[@name='A208']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>00eb4c85-4a25-42ce-af57-9f137f41dfbe</webElementGuid>
+      <webElementGuid>00251a12-cfb2-492c-8cba-7be5bb06ff1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>name</name>
       <type>Main</type>
       <value>A390</value>
-      <webElementGuid>0b324922-d95d-4ddf-ba82-643bd0246715</webElementGuid>
+      <webElementGuid>e79b3307-03a9-4ba3-8378-ab893a0136a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>src</name>
       <type>Main</type>
       <value>http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Images/A390On.png</value>
-      <webElementGuid>86a3efaf-43e3-4125-b91e-dba4e883e626</webElementGuid>
+      <webElementGuid>ecae7125-5f0c-4e99-84bf-7a413dfc20b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>alt</name>
       <type>Main</type>
       <value>Aceptar la información de la ventana</value>
-      <webElementGuid>0447422f-aa92-4371-b917-83255ffcc5ba</webElementGuid>
+      <webElementGuid>c6a6db2c-55fb-4998-9115-dfad4d618ce4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Aceptar la información de la ventana</value>
-      <webElementGuid>5673a8d7-d653-4606-896d-ae5decce99f0</webElementGuid>
+      <webElementGuid>3d087fd9-6136-4e88-88f4-dedf5672fc1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;A390LI&quot;)/a[1]/img[1]</value>
-      <webElementGuid>da793a12-26f7-44b0-a066-9258fa73fe11</webElementGuid>
+      <webElementGuid>4a25afbb-b22a-4f30-b98b-fdf46e82f5cb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>ref_element</name>
       <type>Main</type>
       <value>Object Repository/Frames/frame_FraHeader</value>
-      <webElementGuid>e00c84c1-b895-4a16-a535-166ef2116023</webElementGuid>
+      <webElementGuid>c0c8de34-cb10-4ee3-b9eb-680edfd1b008</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//img[@name='A390']</value>
-      <webElementGuid>cab6f802-f8ca-44c1-9927-a6a6c67a893d</webElementGuid>
+      <webElementGuid>8acd1fc4-5341-45d2-bd57-5b3d3fcdc551</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//li[@id='A390LI']/a/img</value>
-      <webElementGuid>0e6774ba-3b47-437c-be26-d0f91bb6e620</webElementGuid>
+      <webElementGuid>fb8457db-8068-46f7-bc3a-f2903ce74247</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[@alt='Aceptar la información de la ventana']</value>
-      <webElementGuid>01af5648-9cf3-41c2-903d-70e817484f54</webElementGuid>
+      <webElementGuid>9f6a3396-9b1c-43a6-ace4-846f7fb9ffe5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/ul/li[3]/a/img</value>
-      <webElementGuid>3faea371-5aac-4fa0-a0ec-1e8fa5db6249</webElementGuid>
+      <webElementGuid>81a94520-4154-4b68-afe9-b88550a4e931</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@name = 'A390' and @src = 'http://ori-dtp-vtimeos.retiro.ar:8083/VTimeNet/Images/A390On.png' and @alt = 'Aceptar la información de la ventana' and @title = 'Aceptar la información de la ventana']</value>
-      <webElementGuid>cd16b14a-296f-4599-9217-e9d53cacae98</webElementGuid>
+      <webElementGuid>1a3ba3d6-94fc-4d52-90a3-4f5925b06e67</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
