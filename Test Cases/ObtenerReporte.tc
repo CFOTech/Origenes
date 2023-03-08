@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ProcesosBatch</name>
+   <name>ObtenerReporte</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>47fde51d-fb60-4a34-8c52-ec50534568bc</testCaseGuid>

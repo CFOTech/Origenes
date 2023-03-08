@@ -17,17 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+// File (or directory) with old name
+File file = new File('C:\\Users\\Julian\\Downloads\\'+ nombreArchivo + '.xls')
 
-WebUI.navigateToUrl('http://ori-dtp-vtimeos.retiro.ar:8083/dropthings/default.aspx')
+// File (or directory) with new name
+File file2 = new File('C:\\Users\\Julian\\Downloads\\'+ nombreArchivo + '.html')
 
-WebUI.maximizeWindow()
+if (file2.exists()) {
+	throw new IOException('file exists')
+}
 
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/a_Ingresar'))
+// Rename file (or directory)
+boolean success = file.renameTo(file2)
 
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Nombre usuario_EmailAddressTextBox'), 'ex6268')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Contrasea_PasswordTextBox'), 'aERmxBWo410xh77zcxd0kw==')
-
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/div_Iniciar'))
-
+WebUI.openBrowser('C:\\Users\\Julian\\Downloads\\'+ nombreArchivo + '.html')

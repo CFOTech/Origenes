@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AbrirArchivo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f60c4d7a-de67-4567-8b8a-6dd63906e6c0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3d3ca836-6015-4cad-a430-973c6b3135a9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'OpRealiz230307030306xls'</defaultValue>
+      <description></description>
+      <id>3d3ca836-6015-4cad-a430-973c6b3135a9</id>
+      <masked>false</masked>
+      <name>nombreArchivo</name>
+   </variable>
+</TestCaseEntity>

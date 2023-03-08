@@ -17,17 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+//Renombrado de archivo
+File file = new File(('C:\\Users\\Julian\\Downloads\\' + nombreArchivo) + '.xls')
 
-WebUI.navigateToUrl('http://ori-dtp-vtimeos.retiro.ar:8083/dropthings/default.aspx')
+File file2 = new File(('C:\\Users\\Julian\\Downloads\\' + nombreArchivo) + '.html')
 
-WebUI.maximizeWindow()
+file.renameTo(file2)
 
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/a_Ingresar'))
+//Abrir el excel como una pagina web
+WebUI.openBrowser(('C:\\Users\\Julian\\Downloads\\' + nombreArchivo) + '.html')
 
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Nombre usuario_EmailAddressTextBox'), 'ex6268')
+//Obtener variable de interes
+def primaReporte = WebUI.getText(findTestObject('Reporte Poliza/td_PrimaTarifa'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Contrasea_PasswordTextBox'), 'aERmxBWo410xh77zcxd0kw==')
+def premioReporte = WebUI.getText(findTestObject('Reporte Poliza/td_Premio'))
 
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/div_Iniciar'))
+WebUI.closeBrowser()
+
+assert (primaReporte == primaEsperada) && (premioReporte == premioEsperado)
+
+
 

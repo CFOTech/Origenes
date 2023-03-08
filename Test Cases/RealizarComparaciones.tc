@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>RealizarComparaciones</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>93a8998d-dfeb-4c58-8297-37df962cb16c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8b24db6-ac82-4f03-8fcd-669b4eca65ff</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8cbaeecd-b5f1-48af-9b03-a1331caeb303</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90895907-4479-49b7-86f7-10865a961285</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'OpRealiz230307050336xls'</defaultValue>
+      <description></description>
+      <id>f8b24db6-ac82-4f03-8fcd-669b4eca65ff</id>
+      <masked>false</masked>
+      <name>nombreArchivo</name>
+   </variable>
+   <variable>
+      <defaultValue>'133,360631'</defaultValue>
+      <description></description>
+      <id>8cbaeecd-b5f1-48af-9b03-a1331caeb303</id>
+      <masked>false</masked>
+      <name>primaEsperada</name>
+   </variable>
+   <variable>
+      <defaultValue>'164,596359'</defaultValue>
+      <description></description>
+      <id>90895907-4479-49b7-86f7-10865a961285</id>
+      <masked>false</masked>
+      <name>premioEsperado</name>
+   </variable>
+</TestCaseEntity>

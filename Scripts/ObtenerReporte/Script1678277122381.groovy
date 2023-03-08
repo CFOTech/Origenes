@@ -71,3 +71,5 @@ def nombreArchivo = WebUI.getText(findTestObject('Page_Interfaz de Operaciones E
 
 WebUI.click(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/btnVerArchivo'))
 
+return nombreArchivo
+
