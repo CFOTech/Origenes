@@ -26,12 +26,14 @@ WebUI.switchToWindowTitle('Tratamiento de pólizas (Company ABC)')
 WebUI.selectOptionByLabel(findTestObject('Page_Tratamiento de plizas (Company ABC)/selectTipoTransaccion'), 'Consulta de Póliza', 
     false)
 
-WebUI.setText(findTestObject('Page_Tratamiento de plizas (Company ABC)/fechaPoliza'), '07/03/2023')
+WebUI.setText(findTestObject('Page_Tratamiento de plizas (Company ABC)/fechaPoliza'), '08/03/2023')
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/select_ComboRamo'), 
     '9', true)
 
 WebUI.setText(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/input_Producto_valProduct'), '9100')
+
+WebUI.click(findTestObject('Object Repository/Page_Tratamiento de plizas (Company ABC)/body_MenuPrincipal'))
 
 WebUI.setText(findTestObject('Page_Tratamiento de plizas (Company ABC)/inputPoliza'), GlobalVariable.nroPoliza)
 

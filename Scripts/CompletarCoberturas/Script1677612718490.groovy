@@ -24,6 +24,8 @@ def nroPoliza = WebUI.getText(findTestObject('Page_Tratamiento de plizas (Compan
 
 KeywordUtil.logInfo('Poliza: ' + nroPoliza)
 
+GlobalVariable.nroPoliza = nroPoliza.substring(0, nroPoliza.lastIndexOf('/'))
+
 WebUI.uncheck(findTestObject('Page_Tratamiento de plizas (Company ABC)  Coberturas/input_Noaplica_Sel'))
 
 WebUI.delay(3)

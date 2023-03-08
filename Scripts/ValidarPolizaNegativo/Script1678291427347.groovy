@@ -17,24 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), 
-    10)
+WebUI.callTestCase(findTestCase('Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
+WebUI.callTestCase(findTestCase('BuscarTransaccion'), [('codigo') : 'int990', ('transaccion') : 'INT990 - Interfaz de Operaciones Emitidas'], 
+    FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), codigo)
+def nombreReporte = WebUI.callTestCase(findTestCase('ObtenerReporte'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/li_CA001 - Tratamiento de plizas'))
-
-not_run: WebUI.delay(5)
-
-not_run: WebUI.setText(findTestObject('Object Repository/Page_VisualTIME 7.0/input_Ingles_txtSearchTransacction'), transaccion)
-
-WebUI.waitForElementClickable(findTestObject('Page_VisualTIME 7.0/span_Ir a'), 5)
-
-WebUI.click(findTestObject('Object Repository/Page_VisualTIME 7.0/span_Ir a'))
-
-WebUI.waitForPageLoad(10)
+WebUI.callTestCase(findTestCase('RealizarComparaciones'), [('nombreArchivo') : nombreReporte, ('primaEsperada') : '135,360631'
+        , ('premioEsperado') : '165,596359'], FailureHandling.STOP_ON_FAILURE)
 

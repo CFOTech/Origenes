@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>ValidadPoliza</name>
+   <name>ValidarPolizaNegativo</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>baf82a1f-74a6-442c-bf26-b18699223a96</testCaseGuid>
+   <testCaseGuid>a4cfc8a2-aaf0-4e78-ab59-743bb827fbfd</testCaseGuid>
 </TestCaseEntity>

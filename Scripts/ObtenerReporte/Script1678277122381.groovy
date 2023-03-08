@@ -25,9 +25,9 @@ WebUI.switchToWindowTitle('Interfaz de Operaciones Emitidas (Company ABC)')
 
 WebUI.click(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/btnGuardarCheck'))
 
-WebUI.setText(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/inpFechaInicial'), '06/03/2023')
+WebUI.setText(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/inpFechaInicial'), '08/03/2023')
 
-WebUI.setText(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/inpFechaFinal'), '05/03/2024')
+WebUI.setText(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/inpFechaFinal'), '07/03/2024')
 
 WebUI.selectOptionByValue(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/selectRamo'), '9', false)
 
@@ -69,7 +69,11 @@ WebUI.switchToWindowTitle('')
 
 def nombreArchivo = WebUI.getText(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/lblArchivo'))
 
+nombreArchivo = nombreArchivo.substring(0, nombreArchivo.lastIndexOf('.'))
+
 WebUI.click(findTestObject('Page_Interfaz de Operaciones Emitidas (Company ABC)/btnVerArchivo'))
+
+WebUI.delay(3)
 
 return nombreArchivo
 

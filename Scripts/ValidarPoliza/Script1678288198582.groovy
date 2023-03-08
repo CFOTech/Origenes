@@ -24,6 +24,6 @@ WebUI.callTestCase(findTestCase('BuscarTransaccion'), [('codigo') : 'int990', ('
 
 def nombreReporte = WebUI.callTestCase(findTestCase('ObtenerReporte'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('RealizarComparaciones'), [('nombreArchivo') : 'OpRealiz230307050336xls', ('primaEsperada') : '133,360631'
+WebUI.callTestCase(findTestCase('RealizarComparaciones'), [('nombreArchivo') : nombreReporte, ('primaEsperada') : '133,360631'
         , ('premioEsperado') : '164,596359'], FailureHandling.STOP_ON_FAILURE)
 
